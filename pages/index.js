@@ -12,6 +12,16 @@ export default function Home({ latestComics }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Text
+          h1
+          size={60}
+          weight="bold"
+          css={{
+            textGradient: "45deg, $purple600 -20%, $pink600 100%",
+          }}
+        >
+          Latest Comics:
+        </Text>
         <Container
           css={{
             paddingTop: "5px",
