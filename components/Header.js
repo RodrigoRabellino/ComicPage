@@ -4,8 +4,8 @@ export function Header() {
     <header>
       <Navbar isCompact variant={"sticky"}>
         <Navbar.Brand>
-          <Text b hideIn={"xs"}>
-            APP
+          <Text hideIn={"xs"}>
+            <b>NEXT</b>APP
           </Text>
         </Navbar.Brand>
         <Navbar.Content hideIn={"xs"}>
